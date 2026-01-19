@@ -1,0 +1,13 @@
+name: isp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - numba
+  - matplotlib
+  - pygmsh
+  - pygalmesh
+  - cupy
+  - gmsh

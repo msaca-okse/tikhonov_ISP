@@ -1,6 +1,4 @@
-conda create -n isp python=3.11
-conda activate isp
-conda install -c conda-forge pygalmesh  ## not needed?
-conda install notebook
-conda install -c conda-forge scipy
-conda install -c conda-forge pygmsh -y
+scipy
+notebook
+pygmsh
+pygalmesh
