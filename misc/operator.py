@@ -28,7 +28,7 @@ def assemble_inner(triangles, areas, H):
 
     F = np.zeros((N_b, N), dtype=np.complex128)
 
-    c = -0.25j  # -1i/4
+    c = +0.25j  # -1i/4
     for i in range(N_b):
         for j in range(M):
             i1 = triangles[j, 0]
